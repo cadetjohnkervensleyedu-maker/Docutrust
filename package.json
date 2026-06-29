@@ -1,0 +1,27 @@
+{
+  "name": "docutrust",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@hashgraph/sdk": "2.24.2",
+    "@noble/ed25519": "^3.1.0",
+    "@supabase/supabase-js": "^2.108.2",
+    "bcryptjs": "^3.0.3",
+    "pdf-lib": "^1.17.1",
+    "qrcode": "^1.5.4"
+  },
+  "overrides": {
+    "@grpc/grpc-js": "^1.14.4",
+    "@hashgraph/cryptography": "^1.17.0",
+    "protobufjs": "^8.6.5"
+  }
+}
